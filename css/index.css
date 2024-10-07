@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+} 
+.early{
+    background-color: cornflowerblue;
+}
+.early nav{
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: cornflowerblue;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.early nav .NAVDIV{
+    display: flex;
+    justify-content: space-between;
+}
+.NAVDIV .paul{
+    color:rgb(33, 63, 106);
+}
+.NAVDIV .nancy{
+    color: red;
+}
+.NAVDIV ul{
+    list-style: none;
+    display: flex;
+}
+.NAVDIV ul li{
+    padding: 10px;
+    font-size: large;
+}
+.NAVDIV ul li a{
+    text-decoration: none;
+    color: white;
+}
+.NAVDIV h3{
+    color: white;
+    font-size: xx-large;
+}
+.NAVDIV ul button{
+    background-color: rgb(33, 63, 106);;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+}
+.NAVDIV ul button a{
+    text-decoration: none;
+    color: white;
+}
+.NAVDIV ul li a:hover{
+    background-color:rgb(33, 63, 106);
+    padding: 15px;
+    border-radius: 10px;
+    transition-duration: 7ms;
+}
+.NAVDIV ul button a:hover{
+   background-color: rgb(33, 63, 106);;
+    padding: 10px;
+    border-radius: 15px;
+    transition-duration: 5ms;
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.sec ul{
+    display: block;
+    padding-top: 10%;
+    color: white;
+}
+.sec ul .ted{
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+.sec ul button{
+    background-color:rgb(33, 63, 106);
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.sec ul button a{
+text-decoration: none;
+color: white;
+}
+.sec ul .clown a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: large;
+}
+.sec ul .clown a:hover{
+    color: rgb(33, 63, 106);
+    font-size: large;
+    text-decoration: underline;
+}
+.sec ul button a:hover{
+    background-color:rgb(33, 63, 106);
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 5ms;
+}
+#firstime{
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#firtime img{
+    width: 50px;
+}
+.third{
+    padding-bottom: 40px;
+    background-color: aliceblue;
+}
+.third h1{
+    margin-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: xx-large;
+}
+.third .cold{
+    display: flex;
+ align-content: center;   
+ justify-content: space-between;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-size: large;
+ padding-bottom: 40px;
+}
+.third .cold .paragraph1 ul{
+    position: relative;
+    padding-top: 10px;
+}
+.third .cold .paragraph1 ul li{
+    list-style: none;
+    padding-top: 20px;
+    position: relative;
+}
+.third .cold .paragraphy2 p{
+    padding-top: 10px;
+}
+.third .cold .paragraphy2 button{
+ padding-right: 20px;
+ padding-left: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 5px;
+ margin-top: 20px;
+ border: 2px solid cadetblue;
+}
+.third .cold .paragraphy2 button a{
+    text-decoration: none;
+color: cadetblue
+}
+.third .cold .paragraphy2 button a:hover{
+    padding-right: 20px;
+ padding-left: 20px;
+ padding-top: 10px;
+ padding-bottom: 20px;
+ color:rgb(33, 63, 106);
+ border-color: rgb(33, 63, 106);
+ transition-duration: 5ms;
+}
+.iphone{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(203, 237, 224);
+    padding-top: 40px;
+    padding-left: 20px;
+    position: relative;
+    height: 600px;
+}
+.iphone .flex{
+   padding-top: 80px;
+}
+.iphone .block{
+    display: block;
+    justify-content: space-between;
+    width: 900px;
+}
+.iphone .block .i{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.iphone .block .i .cap{
+    padding-bottom: 10px;
+    font-size: xx-large;
+    color: rgb(8, 12, 45);
+}
+.iphone .block .i h3{
+    color: rgb(8, 12, 45);
+}
+.iphone .block .ii{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.iphone .block .ii h3{
+    display: none;
+}
+.iphone .block .ii:hover h3{
+    display: block;
+    transition-duration: 7ms;
+}
+.iphone .block .ii .shoe{
+    color:  rgb(79, 110, 152);
+    padding-bottom: 20px;
+    font-size: large;
+}
+.iphone .block .ii .shoe a{
+    color:  rgb(33, 63, 106);
+    text-decoration: none;
+}
+.iphone .block .ii .shoe .new{
+    color: rgb(23, 176, 189)
+}
+.iphone .block .ii h3{
+    color: rgb(8, 12, 45);
+}
+.iphone .block .ii .shoe a:hover{
+    color: rgb(23, 176, 189)
+}
+.iphone .block .iii{
+    padding-top: 10px;
+    background-color:  aliceblue;
+    color: rgb(33, 63, 106);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.iphone .block .iii h4{
+    font-size: large;
+    display: none;
+}
+.iphone .block .iii:hover h4{
+    display: block;
+    transition-duration: 7ms;
+}
+.iphone .block .iii h3 a{
+    color: rgb(33, 63, 106);
+    text-decoration: none;
+}
+.iphone .block .iii h3 a:hover{
+    color: rgb(23, 176, 189);
+}
+.iphone .block .iii h3 .Dot{
+    color: rgb(23, 176, 189);
+}
+.iphone .block .iv h3 a{
+    padding-left: 20px;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding-right: 25px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+    color:  rgb(33, 63, 106);
+}
+.iphone .block .iv h3 a:hover{
+    color: rgb(23, 176, 189);
+}
+.iphone .block .iv h4{
+    padding-left: 20px;
+    color: rgb(33, 63, 106);
+    font-size: large;
+    display: none;
+    padding-top: 10px;
+}
+.iphone .block .iv:hover h4{
+    display: block;
+    transition-duration: 7ms;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    padding-left: 60px;
+    padding-right: 40px;
+    position: relative;
+    margin-top: 40px;
+    background-color: white;
+}
+.top .beside{
+    width: 800px;
+    position: relative;
+    display: block;
+    margin-left: 60px;
+}
+.top .beside .v .big{
+    text-transform: capitalize;
+    font-size: xx-large;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+    color:  rgb(33, 63, 106);
+}
+.top .beside .v h4{
+    padding-bottom: 20px;
+    color:  rgb(33, 63, 106);
+}
+.top .beside .vi{
+    padding-bottom: 20px;
+    color:  rgb(33, 63, 106);
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    position: relative;
+}
+.top .beside .vii{
+    padding-bottom: 20px;
+    color:  rgb(33, 63, 106);
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    position: relative;
+    margin-top: 30px;
+}
+.top .beside .viii{
+    padding-bottom: 20px;
+    color:  rgb(33, 63, 106);
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    position: relative;
+    margin-top: 30px;
+}
+.top .beside .ix{
+    padding-bottom: 20px;
+    color:  rgb(33, 63, 106);
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    /* tex;t-decoration:  */
+    position: relative;
+    margin-top: 30px;
+}
+/* pseudo elementss section is here so i can easily access them */
+.top .beside .ix::after{
+    content: '';
+    background: rgb(33, 63, 106);
+    height: 10px;
+    width: 55%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.top .beside .vi::after{
+    content: '';
+    background: rgb(33, 63, 106);
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.top .beside .vii::after{
+    content: '';
+    background: rgb(33, 63, 106);
+    height: 10px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.top .beside .viii::after{
+    content: '';
+    background: rgb(33, 63, 106);
+    height: 10px;
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.top .beside .vii .jane::after{
+    content: '';
+    background: rgb(227, 231, 237);
+    height: 10px;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.top .beside .vii .jane::after{
+    content: '';
+    background: rgb(227, 231, 237);
+    height: 10px;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.top .beside .viii .jane::after{
+    content: '';
+    background: rgb(227, 231, 237);
+    height: 10px;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.top .beside .ix .jane::after{
+    content: '';
+    background: rgb(227, 231, 237);
+    height: 10px;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.services{
+    background-color:  rgb(227, 231, 237);
+    height: 600px;
+    color: rgb(33, 63, 106);
+}
+.services .two h1{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding-top: 100px;
+}
+.services .two h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services .four{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.call{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5)    ; 
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    background-image: url(../asset/IMG_0707.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
+    align-content: end;
+    padding-bottom: 120px;
+}
+.call h1{
+    padding-bottom: 10px;
+    font-size: xx-large;
+}
+.call button{
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5) ; 
+}
+.call button a{
+    text-decoration: none;
+    color: white;
+}
+.call button a:hover{
+    color: rgb(33, 63, 106);
+    
+}
